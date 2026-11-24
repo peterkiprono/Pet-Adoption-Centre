@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopt a Pet | Paw Haven</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">🐾</span><span>Paw Haven</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰</button>
+    <nav id="main-nav" class="main-nav"><a href="index.html">Home</a><a class="active" href="adopt.html">Adopt</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="nav-cta" href="adopt.html">Find a Pet</a></nav>
+  </div></header>
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">Find your best friend</span><h1>Pets available for adoption</h1><p>Every one of these lovely companions is health-checked, loved, and ready to begin a new life with you.</p></div></section>
+    <section class="section"><div class="container">
+      <div class="adopt-controls">
+        <div class="filter-pills" aria-label="Filter pets">
+          <button class="filter-pill active" data-filter="all" type="button">All pets</button>
+          <button class="filter-pill" data-filter="dog" type="button">Dogs</button>
+          <button class="filter-pill" data-filter="cat" type="button">Cats</button>
+          <button class="filter-pill" data-filter="rabbit" type="button">Small pets</button>
+        </div>
+      </div>
+      <div class="pet-grid adopt-grid" id="adopt-grid"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">🐾</span><span>Paw Haven</span></a><p>Helping pets find the loving homes they deserve.</p></div>
+    <div><h3>Explore</h3><a href="adopt.html">Adopt a pet</a><a href="about.html">Our story</a><a href="contact.html">Contact us</a></div>
+    <div><h3>Visit us</h3><p>12 Hope Street<br>Nairobi, Kenya</p><a href="tel:+254700000000">+254 700 000 000</a></div>
+    <div><h3>Follow</h3><p>Meet the newest arrivals in our community.</p></div>
+  </div><div class="container footer-bottom"><p>© 2026 Paw Haven. All rights reserved.</p><p>Made with <span>♥</span> for every paw.</p></div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
